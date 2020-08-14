@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -85,5 +85,14 @@
     <br><br>
     <div id="sum"></div>
     <script src="script.js"></script>
+    <script>
+        var mb = document.getElementById('middle-box');
+        if (mb < 700) {
+            mb.style.width = "100%";
+        }
+        else {
+            mb.style.width = "50%";
+        }
+    </script>	
 </body>
 </html>
